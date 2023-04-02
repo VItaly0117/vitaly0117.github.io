@@ -30,8 +30,8 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 
-
 };
+
 
 window.addEventListener('load', function() {
     let skillsSection = document.getElementById('skills');
@@ -47,4 +47,58 @@ window.addEventListener('load', function() {
             offset: '80%'
         });
     }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    const sr = ScrollReveal();
+
+
+
+    const homeContentHeadingConfig = {
+        origin: 'top',
+        distance: '80px',
+        duration: 2000,
+        delay: 200
+    };
+    const homeContentConfig = {
+        origin: 'top'
+    };
+    const otherElementsConfig = {
+        origin: 'bottom'
+    };
+
+    sr.reveal('.home-content, .heading', homeContentHeadingConfig);
+    sr.reveal('.home-content', homeContentConfig);
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    ScrollReveal().reveal('.home-content h1, .about-img', {
+        origin: 'left'
+    });
+    ScrollReveal().reveal('.home-content p, .about-content', {
+        origin: 'right'
+    });
+    ScrollReveal({
+        duration: 2000,
+        delay: 200,
+        distance: '80px',
+        reset: true
+    }).reveal('.home-content h1, .about-img', {
+        origin: 'left'
+    }).reveal('.home-content p, .about-content', {
+        origin: 'right'
+    });
+
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const typed = new Typed('.multiple-text', {
+        strings: ['Frontend Dev', 'Designer', 'Discord Manager'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
 });
