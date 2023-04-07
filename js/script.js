@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const typed = new Typed('.multiple-text', {
-        strings: ['Frontend Dev', 'Designer', 'Discord Manager'],
+        strings: ['Frontend Dev', 'Designer', '3D Design'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
