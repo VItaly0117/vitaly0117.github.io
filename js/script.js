@@ -95,49 +95,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const typed = new Typed('.multiple-text', {
-        strings: ['Frontend Dev', 'Designer', '3D Design'],
+        strings: ['Frontend Dev', 'Backend Dev', 'Good Friend. . .', 'Full Stack'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
         loop: true
     });
-});
-
-// Получаем ссылку на canvas элемент
-const canvas = document.getElementById('myChart');
-
-// Задаем данные для диаграммы
-const data = {
-    labels: ['HTML', 'CSS', 'JavaScript', 'Adobe Photoshop', 'Android Studio', 'Unreal Engine 5', 'Collection Data in RoK'],
-    datasets: [{
-        label: 'Skills',
-        data: [99, 90, 40, 65, 10, 20, 100],
-        backgroundColor: ['#3498db', '#2ecc71', '#f1c40f', '#e74c3c', '#9b59b6', '#34495e', '#1abc9c'],
-    }]
-};
-
-// Создаем диаграмму
-const myChart = new Chart(canvas, {
-    type: 'doughnut',
-    data: data,
-    options: {
-        responsive: true,
-        plugins: {
-            legend: {
-                display: true,
-                position: 'bottom',
-                labels: {
-                    font: {
-                        size: 14
-                    }
-                }
-            },
-            title: {
-                display: true,
-                text: 'My Skills'
-            }
-        }
-    }
 });
 const links = document.querySelectorAll('.porfolio-box a');
 links.forEach(link => {
