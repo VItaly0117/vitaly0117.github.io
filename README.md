@@ -1,7 +1,4 @@
-I made/improved for myself ready-made site added the necessary and removed the unnecessary to me here are links to all sources.
+Good afternoon comrades, I made this site on the basis of another site remodeling under myself and improving in some places. 
+Thank you for your attention .
 
-<a href="https://www.youtube.com/watch?v=Tkp3FDgOueM" rel="nofollow">YouTube Codehal</a>
-
-<a href="https://github.com/Alexcitten" rel="nofollow">Alexcitten</a>
-
-Have a nice day!
+Have a nice day.
